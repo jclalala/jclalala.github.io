@@ -1,147 +1,433 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="zxx">
+
 <head>
-	<title>MOOV is coming soon</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="meta description">
+
+    <title>Moov</title>
+
+    <!--=== Favicon ===-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+
+    <!--== Google Fonts ==-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700%7CPlayfair+Display:400,400i"
+          rel="stylesheet">
+
+    <!--=== All Plugins CSS ===-->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+    <!--=== All Vendor CSS ===-->
+    <link href="assets/css/vendor.css" rel="stylesheet">
+    <!--=== Main Style CSS ===-->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Modernizer JS -->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-	
-	
-	<div class="size1 bg0 where1-parent">
-		<!-- Coutdown -->
-		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('images/bg01.jpg');">
-			<div class="wsize2 flex-w flex-c-m cd100 js-tilt">
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 days">35</span>
-					<span class="s2-txt4">Days</span>
-				</div>
+<body class="preloader-active">
 
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 hours">17</span>
-					<span class="s2-txt4">Hours</span>
-				</div>
+<!--== Start PreLoader Wrap ==-->
+<div class="preloader-area-wrap">
+    <div class="spinner d-flex justify-content-center align-items-center h-100">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+<!--== End PreLoader Wrap ==-->
 
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 minutes">50</span>
-					<span class="s2-txt4">Minutes</span>
-				</div>
+<!--== Start Header Area Wrapper ==-->
+<header class="header-area-wrapper transparent-header sticky-header">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Mobile Responsive Menu -->
+            <div class="col-3 d-block d-lg-none">
+                <button class="mobile-menu text-white"><i class="fa fa-bars"></i></button>
+            </div>
 
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 seconds">10</span>
-					<span class="s2-txt4">Seconds</span>
-				</div>
-			</div>
-		</div>
-		
-		<!-- Form -->
-		<div class="size3 flex-col-sb flex-w p-l-75 p-r-75 p-t-45 p-b-45 respon1">
-			<div class="wrap-pic1">
-				<img src="images/icons/logo.png" style="width: 60%" alt="LOGO">
-			</div>
+            <!-- Start Logo Area Wrap -->
+            <div class="col-6 col-lg-2 col-xl-3 text-center text-lg-left">
+                <a href="index.html" class="logo-wrap d-block">
+                    <img src="assets/img/logo.png"/>
+                    <img src="assets/img/logo.png" class="sticky-logo"/>
+                </a>
+            </div>
+            <!-- End Logo Area Wrap -->
 
-			<div class="p-t-50 p-b-60">
-				<p class="m1-txt1 p-b-36">
-					MOOV website is <span class="m1-txt2">Coming Soon</span>, follow us for update now!
-				</p>
+            <!-- Start Main Navigation Wrap -->
+            <div class="col-3 col-lg-10 col-xl-9 my-auto ml-auto position-static">
+                <div class="header-right-area d-flex justify-content-end align-items-center">
+                    <div class="navigation-area-wrap d-none d-lg-block">
+                        <nav class="main-navigation">
+                            <ul class="main-menu nav justify-content-end">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#solutions">Solutions</a></li>
+                                <li><a href="#partner">Partner</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- End Main Navigation Wrap -->
+        </div>
+    </div>
+</header>
+<!--== End Header Area Wrapper ==-->
 
-				<form class="contact100-form validate-form"
-					  action="https://docs.google.com/forms/d/e/1FAIpQLSdzPrlsLA0006DTsn7bDHTsDKzQvZ-iBhyG5gK38CRjqQgt4Q/formResponse">
-					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="entry.1237198032" placeholder="Your Name">
-						<span class="focus-input100"></span>
-					</div>
+<!-- Start Hero Slider Area Wrapper -->
+<div class="slider-area-wrapper fix">
+    <div class="rev_slider_wrapper fullscreen-container" data-alias="classic-agency" data-source="gallery">
+        <div id="rev_slider_22_1" class="rev_slider fullscreenbanner" data-version="5.4.7">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-index="rs-50" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
+                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
+                    data-param9=""
+                    data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="assets/img/bg_v02.png" alt=""
+                         data-bgposition="center center" data-kenburns="on"
+                         data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110"
+                         data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0"
+                         data-offsetstart="0 0"
+                         data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
 
-					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="entry.398095823" placeholder="Email Address">
-						<span class="focus-input100"></span>
-					</div>
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption tp-resizeme" id="slide-50-layer-7"
+                         data-x="['center','right','right','right']"
+                         data-hoffset="['394','30','30','-270']" data-y="['middle','middle','middle','middle']"
+                         data-voffset="['-5','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap"
+                         data-type="image" data-responsive_offset="on"
+                         data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 8;"><img src="assets/img/mobile.png" alt=""
+                                                  data-ww="['370px','370px','370px','0px']"
+                                                  data-hh="['754px','754px','754px','754px']" data-no-retina></div>
 
-					<div class="w-full">
-						<button class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04">
-							Subscribe
-						</button>
-					</div>
-				</form>
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption poppins-40-700 tp-resizeme" id="slide-50-layer-8"
+                         data-x="['left','left','left','left']" data-hoffset="['200','30','30','30']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-40','-50','-50','-50']"
+                         data-fontsize="['90','40','40','40']" data-lineheight="['90','40','40','40']" data-width="none"
+                         data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                         data-frames='[{"delay":750,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                         style="z-index: 9; white-space: nowrap; font-size: 120px; color: rgba(255,255,255,1);">
+                        <p>Keep your</p>
+                        <p>World Mooving</p>
 
-				<p class="s2-txt3 p-t-18">
-					And don’t worry, we hate spam too! You can unsubcribe at anytime.
-				</p>
-			</div>
+                        <a href="https://play.google.com/store/apps/details?id=com.moov.jets.sharingapp"><img
+                                data-ww="['250px','250px','250px','200px']"
+                                src="assets/img/home-showcase/btn-apk.jpg" alt="Apk Download Btn"/></a>
+                        <a href="https://apps.apple.com/sg/app/moov-mobility/id1467143831"><img
+                                src="assets/img/home-showcase/btn-ios.jpg" alt="Ios Download Btn"/></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+        </div>
+    </div>
+</div>
+<!-- End Hero Slider Area Wrapper -->
+
+<!--== Start Team Member Content Area ==-->
+<section class="team-member-area-wrapper" id="about">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <!-- Start Team Member Item -->
+                <div class="team-member-item row no-gutters">
+                    <!-- Start Team Member Profile Picture -->
+                    <figure class="team-member-pro-pic col-md-6">
+                        <img src="assets/img/aboutUs.png" style="padding: 20%"/>
+                    </figure>
+                    <!-- End Team Member Profile Picture -->
+
+                    <!-- Start Team Member Info -->
+                    <div class="team-member-info col-md-5 order-1 m-auto text-center">
+                        <h2 class="mb-50 mb-sm-20">About Us</h2>
+                        <p>Moov is founded on a simple idea to offer a smart, green and sustainable alternative for
+                            short distance commute in urban cities.</p>
+                        <p>We work in close collaboration with local governments, corporations and communities to
+                            cultivate the riding culture and improve urban living.
+                        </p>
+                        <p>The team is made up of highly experienced and passionate individuals who are dedicated in
+                            contributing to the success of mobility transformation.</p>
+                    </div>
+                    <!-- End Team Member Info -->
+                </div>
+                <!-- End Team Member Item -->
+            </div>
+        </div>
+    </div>
+</section>
+<!--== End Team Member Content Area ==-->
+
+<!--== Start Solutions Area Wrapper ==-->
+<section class="team-member-area bg-offwhite pt-120 pt-md-80 pt-sm-60 pb-md-80 pb-sm-60" id="solutions">
+    <div class="container">
+        <div class="row">
+            <!-- Start Section title -->
+            <div class="col-lg-6 m-auto text-center">
+                <div class="section-title-wrap" style="margin-bottom: 0px">
+                    <h2>Solutions</h2>
+                    <p class="mb-0">Our smart mobility network consists of shared bicycles, scooters and E-bikes.</p>
+                </div>
+            </div>
+            <!-- End Section title -->
+        </div>
+
+        <div class="row mtm-50 mtm-sm-30">
+            <!-- Start Team Member #01 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="speaker-member-wrap">
+                    <img src="assets/img/bike.png"/>
+                </div>
+            </div>
+
+            <!-- Start Team Member #02 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="speaker-member-wrap">
+                    <img src="assets/img/scooters.png"/>
+                </div>
+            </div>
+
+            <!-- Start Team Member #03 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="speaker-member-wrap">
+                    <img src="assets/img/eBike.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--== End Solutions Area Wrapper ==-->
+
+<!--== Start Partner Member Content Area ==-->
+<section class="team-member-area-wrapper" id="partner">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <!-- Start Team Member Item -->
+                <div class="team-member-item row no-gutters">
+                    <!-- Start Team Member Info -->
+                    <div class="team-member-info col-md-5 order-1 m-auto text-center">
+                        <h4 class="mb-36 mb-sm-10">Moov Total Solution</h4>
+                        <h2 class="mb-50 mb-sm-20">Partner with us today</h2>
+                        <p>Moov brings turnkey solutions to cities, corporations, campuses and communities.</p>
+                        <p>Our Moov platform program is designed to enable independent operators to provide smart
+                            mobility solutions in their respective geographies. </p>
+                        <p>If you are looking for a custom solution, we got your covered as well. The team is highly
+                            experienced in industrial design, software development, IoT implementation, data processing
+                            and fleet management.</p>
+                    </div>
+                    <!-- End Team Member Info -->
+
+                    <!-- Start Team Member Profile Picture -->
+                    <figure class="team-member-pro-pic col-md-6 order-0 order-md-1">
+                        <img src="assets/img/partner.png" alt="Team"/>
+                    </figure>
+                    <!-- End Team Member Profile Picture -->
+                </div>
+                <!-- End Team Member Item -->
+            </div>
+        </div>
+    </div>
+</section>
+<!--== End Partner Content Area ==-->
+
+<!--== Start Contact Content Area ==-->
+<section class="contact-content-area bg-offwhite pt-120 pt-md-80 pt-sm-60 pb-120 pb-md-80 pb-sm-60" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 m-auto text-center">
+                <!-- Start Contact Form Area -->
+                <div class="contact-form-area-wrapper">
+                    <div class="area-title mb-52 mb-sm-32">
+                        <h2 class="mb-20">Contact Form</h2>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdzPrlsLA0006DTsn7bDHTsDKzQvZ-iBhyG5gK38CRjqQgt4Q/formResponse"
+                              method="post">
+                            <div class="form-input-item white-layout">
+                                <input type="text" name="entry.1237198032" placeholder="Your Name" required/>
+                            </div>
+
+                            <div class="form-input-item white-layout">
+                                <input type="email" name="entry.398095823" placeholder="Your Email" required/>
+                            </div>
+
+                            <div class="form-input-item white-layout">
+                                    <textarea name="entry.1113128604" id="message" cols="30" rows="8"
+                                              placeholder="Your Message" required></textarea>
+                            </div>
+
+                            <div class="form-input-item white-layout">
+                                <button type="submit" class="btn btn-black">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- End Contact Form Area -->
+            </div>
+        </div>
+    </div>
+</section>
+<!--== End Contact Content Area ==-->
+
+<!--== Start Footer Area Wrapper ==-->
+<footer class="footer-wrapper">
+    <!-- Start Footer Widget Area -->
+    <div class="footer-widget-wrapper pt-120 pt-md-80 pt-sm-60 pb-116 pb-md-78 pb-sm-60">
+        <div class="container">
+            <div class="row mtm-44">
+                <!-- Start Single Widget Wrap -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-widget-wrap">
+                        <h3 class="widget-title">Visit Us</h3>
+                        <div class="widget-body">
+                            <div class="about-text">
+                                <address>
+                                    Moov Technology (S) Pte. Ltd.<br>
+                                    14-20, 98 Punggol Drive<br>
+                                    Singapore 828798<br>
+                                </address>
+                                <a href="mailto:contact@moovmobility.co">Email: contact@moovmobility.co</a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Widget Wrap -->
+
+                <!-- Start Single Widget Wrap -->
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-widget-wrap">
+                        <h3 class="widget-title">Links</h3>
+                        <div class="widget-body">
+                            <ul class="widget-list">
+                                <li><a target="_blank" href="https://mobile.moovmobility.co/terms.html">Terms</a></li>
+                                <li><a target="_blank" href="https://mobile.moovmobility.co/privacy.html">Privacy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Widget Wrap -->
+
+                <!-- Start Single Widget Wrap -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-widget-wrap">
+                        <h3 class="widget-title">Latest News</h3>
+                        <div class="widget-body">
+                            <div class="latest-blog-widget">
+                                <div class="single-blog-item">
+                                    <h3><a target="_blank"
+                                           href="https://www.techinasia.com/bikesharing-startup-moov-soft-launches-singapore">Moov
+                                        soft launches in Singapore</a></h3>
+                                    <span class="post-date"><i class="fa fa-clock-o"></i>  June 24, 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Widget Wrap -->
+
+                <!-- Start Single Widget Wrap -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-widget-wrap">
+                        <h3 class="widget-title">Get In Touch</h3>
+                        <div class="widget-body">
+                            <div class="newsletter-widget-wrap">
+                                <p>Enter your email and receive the latest news from us.</p>
+                                <div class="newsletter-form-wrap">
+                                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdzPrlsLA0006DTsn7bDHTsDKzQvZ-iBhyG5gK38CRjqQgt4Q/formResponse"
+                                          method="post">
+                                        <input type="email" name="entry.398095823" placeholder="Enter Email Address"
+                                               required/>
+                                        <button class="btn-newsletter"><i class="fa fa-envelope"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Widget Wrap -->
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Widget Area -->
+
+    <!-- Start Footer Bottom Area -->
+    <div class="footer-bottom-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-sm-12 order-last">
+                    <div class="footer-copyright-area mt-xs-12 text-center text-sm-center">
+                        <p>Copyright © 2019 Moov Technology - All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Bottom Area -->
+</footer>
+<!--== End Footer Area Wrapper ==-->
+
+<!--== Start Off Canvas Area Wrapper ==-->
+<aside class="off-canvas-responsive-menu">
+    <!-- Off Canvas Overlay -->
+    <div class="off-canvas-overlay"></div>
+
+    <!-- Start Off Canvas Content Area -->
+    <div class="off-canvas-content-wrap">
+        <div class="off-canvas-content">
+
+        </div>
+    </div>
+    <!-- End Off Canvas Content Area -->
+</aside>
+<!--== End Off Canvas Area Wrapper ==-->
+
+<!--=======================Javascript============================-->
+<!--=== All Vendor Js ===-->
+<script src="assets/js/vendor.js"></script>
+<!--=== All Plugins Js ===-->
+<script src="assets/js/plugins.js"></script>
+<!--=== Active Js ===-->
+<script src="assets/js/active.min.js"></script>
+
+<!--=== Revolution Slider Js ===-->
+<script src="assets/js/revslider/jquery.themepunch.tools.min.js"></script>
+<script src="assets/js/revslider/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="assets/js/revslider/extensions/revolution.extension.actions.min.js"></script>
+<script src="assets/js/revslider/extensions/revolution.extension.carousel.min.js"></script>
+<script src="assets/js/revslider/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="assets/js/revslider/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="assets/js/revslider/extensions/revolution.extension.migration.min.js"></script>
+<script src="assets/js/revslider/extensions/revolution.extension.navigation.min.js"></script>
+<script src="assets/js/revslider/extensions/revolution.extension.parallax.min.js"></script>
+<script src="assets/js/revslider/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="assets/js/revslider/extensions/revolution.extension.video.min.js"></script>
 
 
-			<div class="flex-w">
-				<!--
-				<a href="#" class="flex-c-m size5 bg3 how1 trans-04 m-r-5">
-					<i class="fa fa-facebook"></i>
-				</a>
-
-				<a href="#" class="flex-c-m size5 bg4 how1 trans-04 m-r-5">
-					<i class="fa fa-twitter"></i>
-				</a>
-
-				<a href="#" class="flex-c-m size5 bg5 how1 trans-04 m-r-5">
-					<i class="fa fa-youtube-play"></i>
-				</a>
-				-->
-			</div>
-		</div>
-	</div>
-
-
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 2019,
-			endtimeMonth: 4,
-			endtimeDate: 30,
-			endtimeHours: 0,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "Asia/Singapore" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
+<script src="assets/js/revslider/revslider-active.js"></script>
 </body>
 </html>
